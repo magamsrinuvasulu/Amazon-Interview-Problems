@@ -1,0 +1,10 @@
+class Solution {
+    public int saveKnights(int n, int m) {
+        // code here
+        if(n==1||m==1)
+        return n*m;
+        if(n==2||m==2)
+        return (n*m+1)/2;
+        return (n*m+1)/2;
+    }
+}
